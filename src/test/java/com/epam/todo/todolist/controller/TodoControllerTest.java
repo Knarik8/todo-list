@@ -28,10 +28,6 @@ public class TodoControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
-//    TodoControllerTest(MockMvc mockMvc) {
-//        this.mockMvc = mockMvc;
-//    }
-
     @MockBean
     private TodoService todoService;
 
